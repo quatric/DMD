@@ -114,7 +114,7 @@ class MessageDeleter:
                     print(f"   -> Failed: {response.status_code} - {response.text}")
 
                 # Random sleep
-                sleep_time = random.uniform(5, 8)
+                sleep_time = random.uniform(0, 1)
                 print(f"   -> Sleeping for {sleep_time:.2f} seconds...")
                 time.sleep(sleep_time)
 
